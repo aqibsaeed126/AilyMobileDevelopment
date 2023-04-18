@@ -1,1 +1,56 @@
 
+// Aqib Notes
+
+SOURCE 1
+- Web build using standard tech like html , css , and JS.
+- all fancy frameworks and libraries are on top of this
+- Web App runs on standard Web browsers
+- For Mobile Dev , You need to target 2 platforms. IOS and Android
+- There are 2 approaches for development
+    - Native
+    - Hybrid
+- Native IOS means development in Java, Kotlin
+- Native Android means development in Swift or Objective C
+- It was usually old convention. maintain 2 code bases , 2 tech teams , more cost, make UI and logic sync completely
+- Hybrid Approach mean , same code base, same tech , same language for both platforms.
+- React Native is top example for hybrid. 
+
+Diff in Mobile and Web
+- Emulator , Simulator and Devices are different in mobile. on Web you only bother for Browsers and responsive design. and other challenge is behaviour in simulator can be different than original device. Emulators comes with tools like XCode and Andoid studio
+- There's No html. we use standard <View> <text><Buttin> <InputText> in mobile. Everything is view in Mobile
+- Styling. Web use css. React native do css using JS. There are options like creating json style sheet object ir styled components.
+- Animations - its more important in Mobile than Web. react native give standard animations + other libraries as well like reanimated
+- Navugation - React router same as web or other libraries as well like react-native-navigation
+- Platform Specific Code. RN give you Module called Platform to address platform specific code.
+- App State - On Mobile user can have app in background or in foreground as well. You can identify it and run code you want
+- Connectivity - You need to handle no connection or low connection states as well on mobile mainly
+- Sharing Code - One option is you can convert RN code to React, but it required a lot of modification. You can use Npm packages to share code or components. but reuse is ok than sharing code due to some challenges
+- Testing , JEST RNTL vs RTL
+- Debugging - Chrome dev tool or Flipper for Mobile
+- Deployments - RN use native way of deployment. RN only tool for writinf native apps. Build needs to be uploaded to huawei , google and apple playstore. Apple and Google store will run some test and then publish your code
+
+SOURCE 2 - Hybrid comparisons
+- There are other options as well like Cordove. Its also uses html, css and JS to build mobile apps. its for PWA
+- PWA are mobile app look alike. but it runs code in browswr and make you feel like obile app
+- Flutter use Darts and built on C++. Its also hybrid. Its complete SDk rather than framework
+- Some cons of using Flutter is app size is big, New in market, less community, langiage Dart learning,Not good documentation
+
+SOURCE 3 - Real developer ?
+- Mobile developers are real developers. It cannot be done with really good skills.
+- You need to learn hard frameworks , Mobile paradigm , offline mode , Native vs hybrid thing , Animations, UI etc.
+
+SOURCE 4 - Common Terms you must know in Mobile Development
+- App with Down-Sync process (All data comes from server and real time connectivity updates only - no offline mode)
+- App with Sync process (User can download / upload latest changes and data. can use in offline mode and local cache and DB)
+- AdMob - 3rd party mobile advertising platform
+- Accelerometer - use by apps in which user use rotation or tilt mobiles. These are actually sensors
+- Ad hoc Bundle - This bundle is used for sending the app to clients for testing purposes.
+- Appcache - Appcache is an HTML5 standard that permits a web app to get cached and make available offline
+- Badge Count - Badge count reflects all types of missed calls, unread emails, or unread SMS
+- TO BE CONTINUED . . . . .. 
+
+Helping Links
+https://bitrise.io/blog/post/making-the-switch-from-web-to-mobile-development
+https://www.simplilearn.com/tutorials/reactjs-tutorial/flutter-vs-react-native
+https://www.quora.com/How-should-I-switch-from-web-development-to-mobile-app-development
+
