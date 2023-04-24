@@ -54,3 +54,30 @@ https://bitrise.io/blog/post/making-the-switch-from-web-to-mobile-development
 https://www.simplilearn.com/tutorials/reactjs-tutorial/flutter-vs-react-native
 https://www.quora.com/How-should-I-switch-from-web-development-to-mobile-app-development
 
+// Sofia's Notes
+
+1) Mobile Apps Technologies (https://clevertap.com/blog/types-of-mobile-apps/)
+• Types of Mobile Apps by technology:
+    - native aps: platform/OS specific
+    - web apps: responsive websites that can work on a mobile device (using a mobile browser)
+    - hybrid apps: native + web combination
+
+    What to use when? 
+    -> decision factors: costs, performance, stablilty, scalability, user needs
+
+2) Mobile Development Frameworks (https://www.kellton.com/kellton-tech-blog/top-10-mobile-app-development-frameworks-in-2023)
+• Most popular frameworks and short description:
+    - Flutter: Google's open source framework for native Andoid and iOS apps
+               highly reliable offering a native-like look and feel
+    - React Native: developed and maintain by Facebook
+                    fast development and deployment
+    - Ionic: open source framework built with Apache Cordova (PhoneGap) + Angular
+             help developers build PWAs/hybrid/cross-platform mobile apps
+    - Xamarin: Microsoft owned open-source framework
+               lavergages .NET/C# programming languages
+
+3) Mobile specific concerns (https://www.outsystems.com/blog/posts/convert-website-to-app-what-to-consider/)
+• Performance expectations (way higher ↑↑)
+• The Offline Challenge
+• Beauty and Aesthetics - mobile app users are more demanding in terms of beauty
+• Mobile features to expand using GPS, detect users' movements, use Bluetooth to connect to other devices, NFC
