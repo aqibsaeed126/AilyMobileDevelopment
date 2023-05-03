@@ -47,7 +47,33 @@ SOURCE 4 - Common Terms you must know in Mobile Development
 - Ad hoc Bundle - This bundle is used for sending the app to clients for testing purposes.
 - Appcache - Appcache is an HTML5 standard that permits a web app to get cached and make available offline
 - Badge Count - Badge count reflects all types of missed calls, unread emails, or unread SMS
-- TO BE CONTINUED . . . . .. 
+- Device Id - Unique Mobile Device Id
+- Emulator - behave like Mobile environment
+- ENvironmental Sensors - to sense temperature , humidity and air pollutiona round u
+- Gyroscope - built in h/w to detect orientation of mobile
+- Geofencing - define geographical boundaries
+- Local Notifications - notification sent from with in device app
+- MQTT - messaging protocol
+- NFC - Near Field Communication protocol
+- Push notification - remote coming from server real time
+- SQLite - local in memory DB for mobile
+- Webview - web view with in mobile app
+- SDK - Collection of tools
+- APK - file format to distribute , upload and install mobile apps
+
+SOURCE 5 - Reason to switch from Web to Mobile
+https://www.joshmorony.com/6-reasons-you-should-switch-from-web-to-mobile-development/
+
+SOURCE 6 - Challenges in Mobile App dev
+https://www.outsystems.com/blog/posts/convert-website-to-app-what-to-consider/
+
+SOURCE 7 - Beginner Roadmap for Android Dev
+https://www.youtube.com/watch?v=AhUL5tHF3uc
+
+SOURCE 8 - Key Difference between React and React Native
+https://www.youtube.com/watch?v=EVSMegdj6tY
+
+
 
 Helping Links
 https://bitrise.io/blog/post/making-the-switch-from-web-to-mobile-development
